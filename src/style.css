@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #FBF2CF;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 90px;
+    border-bottom: 1px solid rgb(148, 147, 147);;
+}
+
+.nav--title {
+    font-family: 'Amatic SC', cursive;
+    color: #25316D;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.winner--text {
+    font-size: 30px;;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.game--field {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.box-border-right-bottom {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.box-border-bottom {
+    border-bottom: 1px solid black;
+}
+
+.box-border-right {
+    border-right: 1px solid black;
+}
+
+.xwon {
+    color: #FA7070;
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.ywon {
+    color: #7FB77E;
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.btn {
+    margin: 40px;
+    padding: 10px 15px;
+    background-color: #FFF38C;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.btn:active {
+    padding: 8px 13px;
+}
+.btn-s {
+    margin: 40px;
+    padding: 10px 15px;
+    background-color: #FFF38C;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.7);
+    box-shadow: #f6bd60 0px 0px 0px 2px;
+}
+
+.newgame-btn{
+    margin: 30px;
+    padding: 10px 15px;
+    background-color: #FFF38C;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.7);
+}
